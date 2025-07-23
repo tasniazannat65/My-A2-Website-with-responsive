@@ -1,1 +1,89 @@
+/* custom styles */
 
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared styles */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  background-color: #f0ffff;
+}
+/* header section styles */
+header{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    
+}
+/* navigation bar styles */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+   align-items: center; 
+   
+  
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  
+}
+.nav-item:nth-child(1) .nav-link {
+  color: #252432;
+  font-weight: 700;
+}
+.nav-item:nth-child(2) .nav-link,
+.nav-item:nth-child(3) .nav-link{
+    color: #8987A1;
+  
+  font-weight: 500;
+}
+.nav-item:nth-child(4) .nav-link{
+    color: #000000;
+    font-weight: 500;
+}
+/* banner section styles */
+.banner-container{
+    display: flex;
+   
+    align-items: end;
+    margin-top: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000000;
+}
+#fresh{
+    color: #E95A08;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+    margin-top: 10px;
+}
+.banner-image img{
+    
+    display: block;
+}
