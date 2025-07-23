@@ -24,9 +24,10 @@ body {
 }
 main{
     max-width: 1440px;
-    margin: 100px auto;
+    margin: 0 auto;
 
 }
+
 .section-title{
     font-size: 3rem;
     font-weight: 700;
@@ -109,7 +110,7 @@ header{
 /* plants section styles */
 .plants{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 100px auto;
     
 
 }
@@ -155,6 +156,38 @@ header{
     border: none;
     width: 270px;
 }
+/* plants lover section styles */
+.plants-lover{
+    max-width: 1140px;
+    margin: 120px auto;
+}
+.plants-lover-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+}
+.plants-list-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+}
+.plants-list-items{
+    margin-top: 20px;
+   margin-left: 25px;
+}
+.plants-list-items li{
+    margin-bottom: 20px;
+}
+
+#trusted-badge{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 380px;
+    top: -100px;
+}
+
 
 
 
