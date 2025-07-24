@@ -152,9 +152,16 @@ header {
 }
 .plants-lover-container {
   display: flex;
-  gap: 40px;
+  gap: 50px;
   align-items: center;
   position: relative;
+}
+#trusted-badge {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 380px;
+  top: -100px;
 }
 .plants-list-title {
   font-size: 3rem;
@@ -169,13 +176,7 @@ header {
   margin-bottom: 20px;
 }
 
-#trusted-badge {
-  width: 250px;
-  height: 250px;
-  position: absolute;
-  left: 380px;
-  top: -100px;
-}
+
 /* latest deals section styles */
 .deals {
   max-width: 1140px;
