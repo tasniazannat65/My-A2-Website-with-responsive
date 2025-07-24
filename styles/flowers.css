@@ -22,52 +22,42 @@ body {
   min-height: 100vh;
   background-color: #f0ffff;
 }
-main{
-    max-width: 1440px;
-    margin: 0 auto;
-
+main {
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.section-title{
-    font-size: 3rem;
-    font-weight: 700;
-    color: #000000;
-    text-align: center;
-    margin-bottom: 10px;
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
 }
-.description{
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 1.25rem;
-    font-family: "Inter", sans-serif;
-    
-    
+.description {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
 }
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
-
 
 /* header section styles */
-header{
-    max-width: 1140px;
-    margin: 0 auto;
-    
-    
+header {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 /* navigation bar styles */
 .navigation {
   display: flex;
   justify-content: space-between;
-   align-items: center; 
-   
-  
+  align-items: center;
 }
- .web-logo img{
-    display: block;
-    max-width: 100%;
-
-} 
-
+.web-logo img {
+  display: block;
+  max-width: 100%;
+}
 
 .nav-links {
   display: flex;
@@ -78,246 +68,240 @@ header{
 }
 .nav-link {
   text-decoration: none;
-  
 }
 .nav-item:nth-child(1) .nav-link {
   color: #252432;
   font-weight: 700;
 }
 .nav-item:nth-child(2) .nav-link,
-.nav-item:nth-child(3) .nav-link{
-    color: #8987A1;
-  
+.nav-item:nth-child(3) .nav-link {
+  color: #8987a1;
+
   font-weight: 500;
 }
-.nav-item:nth-child(4) .nav-link{
-    color: #000000;
-    font-weight: 500;
+.nav-item:nth-child(4) .nav-link {
+  color: #000000;
+  font-weight: 500;
 }
 /* banner section styles */
-.banner-container{
-    display: flex;
-   
-    align-items: end;
-    margin-top: 50px;
+.banner-container {
+  display: flex;
+
+  align-items: end;
+  margin-top: 50px;
 }
 
-.banner-title{
-    font-size: 4rem;
-    font-weight: 700;
-    color: #000000;
-    margin-bottom: 13px;
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 13px;
 }
-.plant-span{
-    color: #E95A08;
+.plant-span {
+  color: #e95a08;
 }
 
-
-.banner-image img{
-    
-    display: block;
-   
-    
-    
+.banner-image img {
+  display: block;
 }
 /* plants section styles */
-.plants{
-    max-width: 1140px;
-    margin: 100px auto 0 auto;
-    
-
+.plants {
+  max-width: 1140px;
+  margin: 100px auto 0 auto;
 }
-.plants-card-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 20px;
-    row-gap: 30px;
-    margin-top: 40px;
+.plants-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 30px;
+  margin-top: 40px;
 }
 
- .plant-sub-title{
-    color: #111111;
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-top: 15px;
-    
-    
-    
+.plant-sub-title {
+  color: #111111;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 15px;
 }
-.plants-card{
-    
-    width: 270px;
-    text-align: center;
-    
-
+.plants-card {
+  width: 270px;
+  text-align: center;
 }
-.price{
-    color: #111111;
-    font-size: 1.25rem;
-    font-weight: 700;
-      margin-top: 10px;
-    margin-bottom: 15px;  
-    
+.price {
+  color: #111111;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
-.btn-primary{
-    background-color: #E95A08;
-    padding: 20px 50px;
-    font-weight: 600;
-    color: #FFFFFF;
-    border: none;
-    width: 270px;
-    cursor: pointer;
+.btn-primary {
+  background-color: #e95a08;
+  padding: 20px 50px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  width: 270px;
+  cursor: pointer;
+  font-size: 1rem;
 }
 /* plants lover section styles */
-.plants-lover{
-    max-width: 1140px;
-    margin: 120px auto 0 auto;
+.plants-lover {
+  max-width: 1140px;
+  margin: 120px auto 0 auto;
 }
-.plants-lover-container{
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    position: relative;
+.plants-lover-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  position: relative;
 }
-.plants-list-title{
-    font-size: 3rem;
-    font-weight: 700;
-    color: #000000;
+.plants-list-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000000;
 }
-.plants-list-items{
-    margin-top: 20px;
-   margin-left: 25px;
+.plants-list-items {
+  margin-top: 20px;
+  margin-left: 25px;
 }
-.plants-list-items li{
-    margin-bottom: 20px;
+.plants-list-items li {
+  margin-bottom: 20px;
 }
 
-#trusted-badge{
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    left: 380px;
-    top: -100px;
+#trusted-badge {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 380px;
+  top: -100px;
 }
 /* latest deals section styles */
-.deals{
-    max-width: 1140px;
-    margin: 100px auto 0 auto;
+.deals {
+  max-width: 1140px;
+  margin: 100px auto 0 auto;
 }
 
+.deals-image {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
 
-
-.deals-image{
-     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px; 
-    
-    margin-top: 50px;
-     
+  margin-top: 50px;
 }
-.box img{
-    filter: brightness(0.5);
+.box img {
+  filter: brightness(0.5);
 }
 
-.box .img1, .box .img2
-{
-    border-radius: 14px;
+.box .img1,
+.box .img2 {
+  border-radius: 14px;
 }
 
-.box .img3{
-    border-radius: 22px;
+.box .img3 {
+  border-radius: 22px;
 }
-.box
-{
-     position: relative;
-     
-
+.box {
+  position: relative;
 }
 
- .deals-image .box:nth-child(1) {
-    grid-column-start: 1;
-    grid-column-end: 2 ;
-    grid-row-start: 1;
-    grid-row-end: 2 ;
-    object-fit: cover;
-    width: 100%;
-    height: 100%; 
-   
-  
-   
-     
-     
-} 
+.deals-image .box:nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 .deals-image .box:nth-child(2) {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3 ;
-    object-fit: cover;
-    width: 100%;
-    height: 100%; 
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.deals-image .box:nth-child(3) {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.box .img-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bloom-plant-discount {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+.shop {
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: underline;
+  text-align: center;
+}
+.box .img-text #bloom-discount {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-align: center;
+}
+.box .img-text #shop-now {
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: underline;
+}
+/* join section styles */
+.join {
+  margin-top: 100px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+   filter: brightness(0.8); 
+  text-align: center;
+  padding: 150px 300px;
+}
+.join-title {
+  font-weight: 700;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.join-input-parent {
+  display: flex;
+  justify-content: center;
+}
+.join-input-parent input {
+  border: none;
+  padding: 15px 152px;
+ 
+}
+ input[type="email"]{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
    
-   
-} 
- .deals-image .box:nth-child(3) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3 ;
-    object-fit: cover;
-    width: 100%;
-    height: 100%; 
-   
-   
-   
-} 
- .box .img-text{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    
-    
+
 
 }
 
+.join-input-parent .btn-primary {
+ 
+  width: 180px;
+  padding: 15px 50px;
 
-
-.bloom-plant-discount{
-    color: #FFFFFF;
-    font-size: 1.25rem;
-    font-weight: 700;
-    text-align: center; 
+ 
 }
-.shop{
-    font-weight: 600;
-    color: #FFFFFF;
-    text-decoration: underline;
-    text-align: center;
-}
- .box .img-text #bloom-discount{
-    font-weight: 700;
-    font-size: 2.5rem;
-    color: #FFFFFF;
-    text-align: center;
-}
-.box .img-text #shop-now{
-    font-weight: 600;
-    font-size: 1.75rem;
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: underline;
-} 
-
-
-
-
-
-
-
-
-
-
-
-
