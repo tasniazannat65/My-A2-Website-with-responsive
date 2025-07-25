@@ -124,5 +124,33 @@ img{
  
     
 }
+/* join section responsive */
+.join {
+ margin:auto;
+ height: auto;
+ padding: 100px 30px 60px;
+ 
+
+ 
+ 
+ 
+}
+.join-title {
+ 
+  font-size: 1.25rem;
+ 
+}
+.join-input-parent input {
+ 
+  padding: 15px;
+ 
+}
+.join-input-parent .btn-primary {
+ 
+  
+  padding: 15px;
+
+ 
+}
 
 }
