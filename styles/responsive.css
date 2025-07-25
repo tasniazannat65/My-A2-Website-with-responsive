@@ -93,4 +93,36 @@ img{
   font-size: 1.5rem;
 
 }
+/* latest deals section responsive */
+.deals {
+  
+  margin: 50px 20px;
+}
+.deals-image {
+ 
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  
+ 
+}
+.deals-image .box:nth-child(1),
+ .deals-image .box:nth-child(2),
+  .deals-image .box:nth-child(3) {
+  grid-column: auto  ;
+  grid-row: auto  ;
+  
+  
+}
+.box .img-text #bloom-discount {
+ 
+  font-size: 1.25rem;
+  
+}
+.box .img-text #shop-now {
+ 
+  font-size: 1rem;
+ 
+    
+}
+
 }
