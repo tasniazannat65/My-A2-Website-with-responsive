@@ -26,6 +26,7 @@
 .banner-title {
   font-size: 1.75rem;
   margin-top: 20px;
+ 
   
  
 }
@@ -35,8 +36,148 @@
   
 }
 .banner-content{
-    padding:0 20px ;
+    padding:  20px;
 
 }
+/* plants section responsive */
+.plants-card-container {
+ 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+ 
+}
+.section-title {
+  font-size: 1.5rem;
+ 
+}
+.plants {
+ 
+  margin: 50px 20px ;
+}
+ .plants-card {
+   max-width: 170px; 
+ 
+} 
+img{
+    width: 100%;
+}
+.btn-primary {
+
+  max-width: 170px;
+  padding: 15px 30px;
+ 
+}
+.plant-sub-title {
+ 
+  font-size: 1rem;
+ 
+}
+.price {
+ 
+  font-size: 1rem;
+  
+}
+/* plants lover section responsive */
+.plants-lover {
+  
+  margin: 20px;
+}
+.plants-lover-container {
+  flex-direction: column;
+ 
+}
+#trusted-badge {
+ display: none;
+}
+.plants-list-title {
+  font-size: 1.5rem;
+
+}
+/* latest deals section responsive */
+.deals {
+  
+  margin: 50px 20px;
+}
+.deals-image {
+ 
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  
+ 
+}
+.deals-image .box:nth-child(1),
+ .deals-image .box:nth-child(2),
+  .deals-image .box:nth-child(3) {
+  grid-column: auto  ;
+  grid-row: auto  ;
+  
+  
+}
+.box .img-text #bloom-discount {
+ 
+  font-size: 1.25rem;
+  
+}
+.box .img-text #shop-now {
+ 
+  font-size: 1rem;
+ 
     
+}
+/* join section responsive */
+.join {
+ margin:auto;
+ height: auto;
+ padding: 100px 30px 60px;
+ 
+
+ 
+ 
+ 
+}
+.join-title {
+ 
+  font-size: 1.25rem;
+ 
+}
+.join-input-parent input {
+ 
+  padding: 15px;
+ 
+}
+.join-input-parent .btn-primary {
+ 
+  
+  padding: 15px;
+
+ 
+}
+/* footer section responsive */
+.footer-column-container{
+    
+    grid-template-columns:1fr;
+    padding: 0 20px;
+    justify-items: left;
+   margin: 50px 0;
+    
+    
+    
+}
+
+ .items{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.social-link img{
+    margin-left: 0;
+    margin-right: 10px;
+    
+   
+
+   
+}
+
 }
