@@ -152,5 +152,33 @@ img{
 
  
 }
+/* footer section responsive */
+.footer-column-container{
+    
+    grid-template-columns:1fr;
+    padding: 0 20px;
+    justify-items: left;
+   margin: 50px 0;
+    
+    
+    
+}
+
+ .items{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.social-link img{
+    margin-left: 0;
+    margin-right: 10px;
+    
+   
+
+   
+}
+
 
 }
